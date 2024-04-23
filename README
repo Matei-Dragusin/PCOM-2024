@@ -1,0 +1,19 @@
+Main: 
+Aloc memorie pentru route_table si arp_table.
+Verific ce tip de pachet am primit. (ARP sau IP)
+Daca am primit un pachet IP, verific TTL-ul.
+Daca TTL-ul este (<= 1), trimit un mesaj de eroare.
+Verific apoi daca routerul este destinatarul pachetului.
+Daca da, trimit un mesaj de eroare.
+Apoi calculez ruta cea mai scurta pentru pachet.
+Daca acesta nu exista, trimit un mesaj de eroare.
+Daca exista, trimit pachetul mai departe.
+
+Compare_route_entries:
+Un comparator simplu pentru a efectua quicksort.
+
+Best_route:
+Folosind cautarea binara, gasesc cea mai buna ruta pentru un pachet.
+
+Arp_lookup:
+Cauta in tabela arp adresa MAC a unui IP.

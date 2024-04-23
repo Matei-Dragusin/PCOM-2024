@@ -9,7 +9,6 @@
 #define MAX_PACKET_LEN 1600
 #define ROUTER_NUM_INTERFACES 3
 
-
 /*
  * @brief Sends a packet on a specific interface.
  *
